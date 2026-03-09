@@ -1,0 +1,19 @@
+import java.util.*;
+public class exercicio2_1 {
+
+	public static void main(String[] args) {
+      
+	int num;
+	Scanner leia = new Scanner(System.in);
+	
+	System.out.println("digite um numero inteiro: ");
+	num = leia.nextInt();
+	
+	if(num % 2 == 0) {
+		System.out.println("o numero é PAR! ");
+	}else {
+		System.out.println("o numero é IMPAR! ");
+	}
+	}
+
+}
