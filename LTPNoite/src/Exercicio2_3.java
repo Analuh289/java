@@ -1,0 +1,26 @@
+import java.util.*;
+public class Exercicio2_3 {
+
+	public static void main(String[] args) {
+		// variaveis
+		String nome;
+		float salario;
+		float novoSal;
+		
+		Scanner leia = new Scanner(System.in);
+		System.out.println("Digite o nome do empregado: ");
+		nome = leia.next();
+		System.out.println("Digite o salario do empregado: ");
+		salario = leia.nextFloat();
+		
+		if(salario < 1000) {
+			novoSal = salario + (float)(1.15);
+		}else {
+			novoSal = salario + (float)(1.10);
+		}
+		System.out.println("O novo salario é: " + novoSal);
+
+	}
+
+
+}

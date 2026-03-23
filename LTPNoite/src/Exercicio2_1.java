@@ -1,0 +1,19 @@
+import java.util.*;
+public class Exercicio2_1 {
+
+	public static void main(String[] args) {
+		// variaveis
+		int idade;
+		Scanner leia = new Scanner(System.in);
+		System.out.println("Digite a idade: ");
+		idade = leia.nextInt();
+		
+		if(idade < 18) {
+			System.out.println("Você é menor de idade: ");
+		}else {
+			System.out.println("Você é maior de idade: ");
+		}
+
+	}
+
+}

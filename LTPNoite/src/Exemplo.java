@@ -1,0 +1,24 @@
+import java.util.*;
+public class Exemplo {
+
+	public static void main(String[] args) {
+    // variaveis
+	float salario;
+	float vlrAumento;
+	float novoSal;
+	
+	// entrada de dados
+	Scanner leia = new Scanner(System.in);
+	System.out.println("Digite o salario: ");
+	salario = leia.nextFloat();
+	System.out.println("Digite o valor do aumento: ");
+	vlrAumento = leia.nextFloat();
+	
+	// calculos
+	novoSal = salario + vlrAumento;
+	
+	// saida de dados
+	System.out.println("Novo salario: " + novoSal);
+	}
+
+}
